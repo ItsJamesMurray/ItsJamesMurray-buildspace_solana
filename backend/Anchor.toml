@@ -1,0 +1,12 @@
+[programs.devnet]
+wagmiwall = "6trfXDSaEPPZMQWAx9WHBfEXGTUnAPASc67xiMJnuU17"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/jamesmurray/.config/solana/id.json"
+
+[scripts]
+test = "node tests/wagmiwall.js" 
