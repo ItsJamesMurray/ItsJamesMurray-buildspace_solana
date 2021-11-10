@@ -9,4 +9,4 @@ cluster = "devnet"
 wallet = "/Users/jamesmurray/.config/solana/id.json"
 
 [scripts]
-test = "node tests/wagmiwall.js" 
+test = "npx mocha -t 1000000 tests/" 
